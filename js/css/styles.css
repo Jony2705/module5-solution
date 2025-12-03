@@ -1,0 +1,67 @@
+/* css/styles.css */
+
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #007acc;
+  color: white;
+  margin: 0;
+}
+
+/* Основной контейнер */
+#main-content {
+  padding: 20px;
+}
+
+/* Плитки категорий */
+.tile {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+  background-color: #eee;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007acc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tile:hover {
+  background-color: #d0e7ff;
+}
+
+/* Меню */
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.menu-item h3 {
+  margin: 0;
+  color: #007acc;
+}
+
+.menu-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Лоадер */
+.text-center {
+  text-align: center;
+}
